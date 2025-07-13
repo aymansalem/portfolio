@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Data Analysis Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-purple">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Hotel Data Insights</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+
+                    <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <!-- Hero Section -->
+    <section class="hero bg-purple text-center py-5">
+        <div class="container">
+            <h1 class="text-white mb-4">Unlocking Hospitality Performance with Data</h1>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Grid Section / Projects -->
+    <section id="projects" class="container my-5">
+        <h2 class="text-center mb-4">Featured Analysis Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="box bg-blue p-4 text-white">
+                    <h5>Booking Pace - Analysis</h5>
+                    <p>Tableau dashboards visualizing year-over-year room sales, ADR, and seasonality.</p>
+                    <a href="https://github.com/aymansalem/ZNZ_hotel_analysis" class="btn btn-light btn-sm">View</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box bg-blue p-4 text-white">
+                    <h5>Pace Report - Weekly View</h5>
+                    <p>Segment-based ADR trends using PostgreSQL and Python data viz tools.</p>
+                    <a href="https://github.com/aymansalem/ZNZ_hotel_analysis" class="btn btn-light btn-sm">Explore</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box bg-blue p-4 text-white">
+                    <h5>Forecast vs Actual Analysis</h5>
+                    <p>Track how forecasts aligned with actual room demand over multiple seasons.</p>
+                    <a href="https://github.com/aymansalem/ZNZ_hotel_analysis" class="btn btn-light btn-sm">Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+
+   <!-- New Section Bar -->
+
+<section class="container my-5">
+  <h2 class="text-center mb-4">Project Highlights</h2>
+
+
+
+
+
+
+  <!-- Hotels Booking Trends -->
+  <div class="mb-5">
+    <h3>Market Segment Booking Pace - Summary Analysis</h3>
+    <p>
+     
+<ul>
+  <li><strong>Analyzed</strong> booking trends across Direct and OTA channels from 2018 to 2020 using historical OTB data.</li>
+  <li><strong>Segmented</strong> bookings by lead time (0–7, 8–14, 15–30, 31+ days) to assess booking window behaviors.</li>
+  <li><strong>Grouped</strong> results by weekly arrival date to track pace over time.</li>
+  <li><strong>Created filters</strong> by hotel property and distribution channel for dynamic performance analysis.</li>
+  <li><strong>Measured pickup</strong> by comparing bookings across multiple snapshots (if available).</li>
+  <li><strong>Calculated KPIs</strong>: Room Nights, Revenue, Booking Volume, and ADR per lead time bucket.</li>
+  <li><strong>Visualized</strong> key metrics in line and bar charts using Tableau for time-series insight.</li>
+  <li><strong>Identified trends</strong> in booking behavior shifts pre-/post-season and across distribution types.</li>
+  <li><strong>Highlighted</strong> early vs. late booking behavior differences between OTAs and Direct channels.</li>
+</ul>
+    </p>
+    <a href="Forc_vs_Actual.html" class="btn btn-pink">Booking Trends Analysis</a>
+  </div>
+
+  <!-- ADR Weekly Variations -->
+  <div class="mb-5">
+    <h3>ADR & RevPAR Weekly Variations</h3>
+    <p>
+      <ul>
+  <li><strong>Trend Focus:</strong>  Tracks how Average Daily Rate (ADR) changes week over week across different segments and seasons.</li>
+  <li><strong>Year-over-Year Comparison:</strong>  Identifies growth or decline in ADR between 2018, 2019, and 2020..</li>
+  <li><strong>Market Sensitivity: </strong>  Highlights segments most affected by pricing shifts and promotional strategies.</li>
+  <li><strong>Stabilization or Volatility:</strong>  Flags weeks with high volatility to help adjust future pricing strategies.</li>
+  <li><strong>Data-Driven Pricing:</strong> Informs rate setting by identifying peak demand periods and price elasticity.</li>
+  <li><strong>Seasonal Insights:</strong>:  Reveals high-performing and underperforming weeks by ADR within each season..</li>
+  
+</ul>
+    </p>
+    <a href="adr.html" class="btn btn-pink">View ADR Insights</a>
+  </div>
+
+  <!-- Forecast vs Actual -->
+  <div class="mb-5">
+    <h3>Forecast vs Actual Performance</h3>
+     <ul>
+  <li><strong>Forecast Accuracy:</strong> Compares projected room nights, revenue, and ADR against actual check-in data by week and segment..</li>
+  <li><strong> Variance Analysis:</strong>  Quantifies over- or under-performance using percentage deviations from forecasted values.</li>
+  <li><strong>Segment-Level Insights: </strong>   Highlights which segments most often exceed or fall short of expectations..</li>
+  <li><strong> Lead Time Impact:</strong>  Correlates forecast error with booking window and market behavior..</li>
+  <li><strong>Continuous Calibration:</strong>  Supports fine-tuning of forecasting models over time based on historical accuracy..</li>
+  <li><strong>Operational Alignment:</strong> Informs revenue, staffing, and inventory decisions using reliable actuals vs projections comparison.</li>
+  
+</ul>
+    <a href="forecast.html" class="btn btn-pink">View Forecast Comparison</a>
+  </div>
+</section>
+
+
+    <footer class="footer bg-pink text-center py-3 mt-4">
+        <p class="mb-0">&copy; 2025 Ayman Salem | Hotel Data Portfolio</p>
+    </footer>
+</body>
+</html>
