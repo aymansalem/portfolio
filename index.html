@@ -19,16 +19,23 @@
   <meta property="og:image" content="https://aymansalem.github.io/portfolio/assets/preview.jpg" />
 
   <!-- Structured Data (JSON-LD) -->
- <script type="application/ld+json">
+ <!-- === HOME PAGE === -->
+<!-- File: index.html -->
+<link rel="canonical" href="https://aymansalem.github.io/portfolio/" />
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Hotel Analytics Portfolio | Ayman Salem",
+  "@type": "WebSite",
   "url": "https://aymansalem.github.io/portfolio/",
-  "description": "Explore hotel data analytics projects using Tableau, SQL, and Python. Focused on booking pace, ADR, forecast accuracy, and revenue trends."
+  "name": "Hotel Analytics Portfolio | Ayman Salem",
+  "description": "Explore hotel data analytics projects using Tableau, SQL, and Python. Focused on booking pace, ADR, forecast accuracy, and revenue trends.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://aymansalem.github.io/portfolio/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -48,8 +55,8 @@
     }
   ]
 }
-
 </script>
+
 
 
 
